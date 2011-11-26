@@ -490,19 +490,82 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-High Level View
+ROS Stacks Overview
+\end_layout
+
+\begin_layout FrameSubtitle
+Currently > 400 Stacks available
+\end_layout
+
+\begin_layout Itemize
+(2D/3D) Navigation 
+\end_layout
+
+\begin_layout Itemize
+PR2 arm navigation
+\end_layout
+
+\begin_layout Itemize
+PR2 opening doors 
+\end_layout
+
+\begin_layout Itemize
+Exploration
+\end_layout
+
+\begin_layout Itemize
+GUI for PR2 robot
+\end_layout
+
+\begin_layout Itemize
+PR2 object manipulation 
+\end_layout
+
+\begin_layout Itemize
+PR2 simulator
 \end_layout
 
 \begin_layout Standard
-ROS File System Level
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename images/PR2_3DNavigation.jpg
+	lyxscale 20
+	height 15theight%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/PR2 Opening doors.png
+	lyxscale 20
+	height 15theight%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout EndFrame
+\end_inset
+
 
 \end_layout
 
-\begin_layout BeginFrame
-Nodes, Master Parameter server topics, service, bags
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.ros.org/browse"
+target "http://www.ros.org/browse"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
