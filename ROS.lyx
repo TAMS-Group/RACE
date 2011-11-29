@@ -184,7 +184,24 @@ Open Source
 \end_layout
 
 \begin_layout Itemize
-BSD Licensed
+BSD Licensed (very liberal
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "http://en.wikipedia.org/wiki/BSD_licenses"
+target "http://en.wikipedia.org/wiki/BSD_licenses"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Itemize
@@ -200,11 +217,11 @@ Community
 \end_layout
 
 \begin_layout BeginFrame
-Introduction
+Introduction (cont.)
 \end_layout
 
 \begin_layout FrameSubtitle
-Robots Using ROS >50
+Robots Using ROS > 50
 \end_layout
 
 \begin_layout Standard
@@ -221,7 +238,8 @@ status open
 \begin_inset Graphics
 	filename images/ROSManyRobots.png
 	lyxscale 20
-	height 80theight%
+	height 80pheight%
+	BoundingBox 0bp -160bp 952bp 480bp
 
 \end_inset
 
@@ -238,7 +256,39 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-High Level View
+ROS Basics
+\end_layout
+
+\begin_layout Itemize
+Supported Platforms
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Linux, Mac OS, partial support for Windows
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Languages
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+C/C++, Python, Octave, Lisp, Java
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+What does ROS cover?
 \end_layout
 
 \begin_layout Standard
@@ -277,6 +327,44 @@ Message passing
 
 \end_layout
 
+\begin_layout Section
+Concepts
+\end_layout
+
+\begin_layout BeginFrame
+ROS Nodes
+\end_layout
+
+\begin_layout Itemize
+Master (rosmaster)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+provides naming and registration services
+\end_layout
+
+\begin_layout Itemize
+tracks topics and services
+\end_layout
+
+\begin_layout Itemize
+enables localization of nodes (nodes talk peer-to-peer)
+\end_layout
+
+\begin_layout Itemize
+XML-RPC-based API
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Generally: they are uniquely named
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
 \begin_layout BeginFrame
 \begin_inset ERT
 status collapsed
@@ -288,7 +376,7 @@ status collapsed
 
 \end_inset
 
-High Level View
+ROS Communication
 \end_layout
 
 \begin_layout Itemize
@@ -301,7 +389,7 @@ Usually TCP/IP transport
 \end_layout
 
 \begin_layout Itemize
-XML-RPC is only used to negotiate transport (no messsages via XML-RPC)
+XML-RPC is only used to negotiate transport (no messages via XML-RPC)
 \end_layout
 
 \end_deeper
@@ -331,32 +419,48 @@ status open
 
 \end_layout
 
-\begin_layout Itemize
-Uniquely named
-\end_layout
-
-\begin_layout Itemize
-Supported Platforms
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Linux, Mac OS, partial support for Windows
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Languages
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-C/C++, Python, Octave, Lisp, Java
-\end_layout
-
-\end_deeper
 \begin_layout EndFrame
 
+\end_layout
+
+\begin_layout BeginFrame
+ROS Communication (cont.)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename images/ros_rxgraph.pdf
+	lyxscale 20
+	width 100text%
+	BoundingBox 40bp 0bp 800bp 530bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Repositories
 \end_layout
 
 \begin_layout BeginFrame
@@ -406,27 +510,34 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-ROS Strengths for RACE
+ROS Repositories (cont.)
 \end_layout
 
-\begin_layout Itemize
-Visualization
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename images/ROS_Repositories.png
+	lyxscale 20
+	width 100page%
+	BoundingBox 80bp 0bp 1350bp 550bp
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-Object recognition
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-Navigation
-\end_layout
 
-\begin_layout Itemize
-Manipulation/Grasping
-\end_layout
-
-\begin_layout Itemize
-Plugging in
 \end_layout
 
 \begin_layout EndFrame
@@ -438,14 +549,10 @@ ROS Stacks
 \end_layout
 
 \begin_layout Itemize
-Collect similar packages that work together
+Collect similar packages that work together to achieve e.g.:
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-ROS
-\end_layout
-
 \begin_layout Itemize
 2D Navigation
 \end_layout
@@ -455,7 +562,7 @@ Manipulation
 \end_layout
 
 \begin_layout Itemize
-Controllers
+SLAM
 \end_layout
 
 \end_deeper
@@ -491,11 +598,42 @@ status open
 
 \begin_layout BeginFrame
 ROS Stacks Overview
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.ros.org/browse"
+target "http://www.ros.org/browse"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout FrameSubtitle
 Currently > 400 Stacks available
 \end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
 
 \begin_layout Itemize
 (2D/3D) Navigation 
@@ -525,7 +663,23 @@ PR2 object manipulation
 PR2 simulator
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50page%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
 \begin_inset Float figure
 wide false
 sideways false
@@ -537,7 +691,19 @@ status open
 \begin_inset Graphics
 	filename images/PR2_3DNavigation.jpg
 	lyxscale 20
-	height 15theight%
+	height 40theight%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/2DMapping.png
+	lyxscale 20
+	height 20theight%
 
 \end_inset
 
@@ -545,7 +711,7 @@ status open
 \begin_inset Graphics
 	filename images/PR2 Opening doors.png
 	lyxscale 20
-	height 15theight%
+	height 20theight%
 
 \end_inset
 
@@ -556,12 +722,6 @@ status open
 
 
 \end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset href
-LatexCommand href
-name "http://www.ros.org/browse"
-target "http://www.ros.org/browse"
 
 \end_inset
 
@@ -678,6 +838,34 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+ROS Strengths for RACE
+\end_layout
+
+\begin_layout Itemize
+Visualization
+\end_layout
+
+\begin_layout Itemize
+Object recognition
+\end_layout
+
+\begin_layout Itemize
+Navigation
+\end_layout
+
+\begin_layout Itemize
+Manipulation/Grasping
+\end_layout
+
+\begin_layout Itemize
+Plugging in
 \end_layout
 
 \begin_layout EndFrame
