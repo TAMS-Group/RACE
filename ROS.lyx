@@ -99,7 +99,7 @@
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Title..
@@ -122,7 +122,7 @@ filename "subs/title/title_presentation.lyx"
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Outline..
@@ -146,9 +146,13 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout EndFrame
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Content..
@@ -160,11 +164,31 @@ Content..
 \end_layout
 
 \begin_layout Section
-Introduction
+PR2 Introduction
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+include{pres1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+ROS Introduction
 \end_layout
 
 \begin_layout BeginFrame
-Introduction
+ROS Introduction
 \end_layout
 
 \begin_layout Standard
@@ -328,7 +352,7 @@ Message passing
 \end_layout
 
 \begin_layout Section
-Concepts
+ROS Concepts
 \end_layout
 
 \begin_layout BeginFrame
@@ -460,7 +484,7 @@ status open
 \end_layout
 
 \begin_layout Section
-Repositories
+ROS Repositories
 \end_layout
 
 \begin_layout BeginFrame
@@ -879,6 +903,35 @@ RACE specific
 
 \end_deeper
 \begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Chapter: Further Sensors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+include{pres2}
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
