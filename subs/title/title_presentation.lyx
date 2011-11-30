@@ -160,6 +160,38 @@ S.
 \series default
 \size small
 {klimentjew, rockel, zhang}@informatik.uni-hamburg.de
+\begin_inset VSpace -1em
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+\begin_inset Graphics
+	filename /Users/sebastian/tams/Projekte/RACE/github/RACE/images/RACE-Logo-Slanting-PROPOSAL-grayscale.pdf
+	lyxscale 20
+	width 13page%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

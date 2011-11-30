@@ -865,9 +865,19 @@ Manipulation/Grasping
 \end_layout
 
 \begin_layout Itemize
-Plugging in
+Plugging in Sensors
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+already integrated
+\end_layout
+
+\begin_layout Itemize
+RACE specific
+\end_layout
+
+\end_deeper
 \begin_layout EndFrame
 
 \end_layout
