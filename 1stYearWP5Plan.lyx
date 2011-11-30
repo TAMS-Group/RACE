@@ -4,7 +4,7 @@
 \begin_header
 \textclass beamer
 \begin_preamble
-\usepackage[ uniWZ, tams, blockBG, engl, conference]{tamsBeamer}
+\usepackage[ uniWZ, tams, blockBG, blockRound, engl, conference ]{tamsBeamer}
 %-- options	------------------------------------------------------
 %	tams	|	- TAMS		publication
 %	engl		- english strings	[german]
@@ -99,7 +99,7 @@
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Title..
@@ -113,7 +113,7 @@ Title..
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "subs/title/title_presentation.lyx"
+filename "subs/title/title_1stYWP5.lyx"
 
 \end_inset
 
@@ -122,7 +122,7 @@ filename "subs/title/title_presentation.lyx"
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Outline..
@@ -133,11 +133,15 @@ Outline..
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
 \begin_layout BeginFrame
 Outline
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -146,9 +150,18 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout EndFrame
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Content..
@@ -159,21 +172,7 @@ Content..
 
 \end_layout
 
-\begin_layout Section
-Introduction
-\end_layout
-
 \begin_layout BeginFrame
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-[allowframebreaks]
-\end_layout
-
-\end_inset
-
 Goals
 \end_layout
 
@@ -221,6 +220,14 @@ tables, chairs, objects (static, dynamic)
 \end_layout
 
 \end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Goals (cont.)
+\end_layout
+
 \begin_layout Itemize
 2D/3D Navigation (platform, arms)
 \end_layout
@@ -252,7 +259,7 @@ Integration onto the real robot
 \end_layout
 
 \begin_layout BeginFrame
-Questions
+Discussion
 \end_layout
 
 \begin_layout Itemize
