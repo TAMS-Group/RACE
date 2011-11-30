@@ -177,16 +177,6 @@ Goals
 \end_layout
 
 \begin_layout Itemize
-Define Abstract Robot Control Architecture (ARCA)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Provide interfaces
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
 Simulated robot platform
 \end_layout
 
@@ -220,6 +210,20 @@ tables, chairs, objects (static, dynamic)
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+2D/3D Navigation (platform, arms)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+collision avoidance
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Remote interface to the robot
+\end_layout
+
 \begin_layout EndFrame
 
 \end_layout
@@ -229,7 +233,7 @@ Goals (cont.)
 \end_layout
 
 \begin_layout Itemize
-2D/3D Navigation (platform, arms)
+Year one demonstrator2D/3D Navigation (platform, arms)
 \end_layout
 
 \begin_deeper
@@ -254,15 +258,38 @@ Abstraction layer for all integrated components
 Integration onto the real robot
 \end_layout
 
+\begin_layout Itemize
+Abstraction layer for all integrated components
+\end_layout
+
+\begin_layout Itemize
+Integration onto the real robot
+\end_layout
+
+\begin_layout Itemize
+Define Abstract Robot Control Architecture (ARCA) with other project participant
+s
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Provide interfaces
+\end_layout
+
+\end_deeper
 \begin_layout EndFrame
 
 \end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
 
 \begin_layout BeginFrame
 Tasks for UHAM/T
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="3">
 <features tabularvalignment="middle">
@@ -451,6 +478,11 @@ T5.5
 \end_layout
 
 \begin_layout EndFrame
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
