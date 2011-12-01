@@ -99,6 +99,10 @@
 \begin_body
 
 \begin_layout Section
+ROS
+\end_layout
+
+\begin_layout Subsection
 ROS Introduction
 \end_layout
 
@@ -266,7 +270,7 @@ Message passing
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 ROS Concepts
 \end_layout
 
@@ -398,7 +402,7 @@ status open
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 ROS Repositories
 \end_layout
 
