@@ -1,0 +1,125 @@
+%% LyX 2.0.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english,t]{beamer}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{listings}
+\lstset{basicstyle={\sffamily\small},
+breakatwhitespace=true,
+breaklines=true,
+captionpos=b,
+commentstyle={\color{red}\emph},
+escapeinside={\%*}{*)},
+frameshape={RYR}{y}{y}{RYR},
+identifierstyle={\color{black}\bfseries},
+keywordstyle={\color{blue}\bfseries},
+numbers=none,
+numbersep=5pt,
+numberstyle={\color{black}\tiny},
+showspaces=false,
+showstringspaces=false,
+showtabs=false,
+stepnumber=1,
+stringstyle={\ttfamily\color{red}\bfseries\emph},
+tabsize=2}
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\synctex=-1
+\usepackage{color}
+\usepackage{babel}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\ifx\hypersetup\undefined
+  \AtBeginDocument{%
+    \hypersetup{unicode=true,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 0},backref=false,colorlinks=false,pdftitle={Introduction to the Git Version Control System},
+ pdfauthor={Sebastian Rockel},
+ pdfsubject={Oberseminar TAMS, Department of Informatics, University Hamburg},
+ pdfkeywords={Git, Version Control System}}
+  }
+\else
+  \hypersetup{unicode=true,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 0},backref=false,colorlinks=false,pdftitle={Introduction to the Git Version Control System},
+ pdfauthor={Sebastian Rockel},
+ pdfsubject={Oberseminar TAMS, Department of Informatics, University Hamburg},
+ pdfkeywords={Git, Version Control System}}
+\fi
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+ % this default might be overridden by plain title style
+ \newcommand\makebeamertitle{\frame{\maketitle}}%
+ \AtBeginDocument{
+   \let\origtableofcontents=\tableofcontents
+   \def\tableofcontents{\@ifnextchar[{\origtableofcontents}{\gobbletableofcontents}}
+   \def\gobbletableofcontents#1{\origtableofcontents}
+ }
+ \long\def\lyxframe#1{\@lyxframe#1\@lyxframestop}%
+ \def\@lyxframe{\@ifnextchar<{\@@lyxframe}{\@@lyxframe<*>}}%
+ \def\@@lyxframe<#1>{\@ifnextchar[{\@@@lyxframe<#1>}{\@@@lyxframe<#1>[]}}
+ \def\@@@lyxframe<#1>[{\@ifnextchar<{\@@@@@lyxframe<#1>[}{\@@@@lyxframe<#1>[<*>][}}
+ \def\@@@@@lyxframe<#1>[#2]{\@ifnextchar[{\@@@@lyxframe<#1>[#2]}{\@@@@lyxframe<#1>[#2][]}}
+ \long\def\@@@@lyxframe<#1>[#2][#3]#4\@lyxframestop#5\lyxframeend{%
+   \frame<#1>[#2][#3]{\frametitle{#4}#5}}
+ \def\lyxframeend{} % In case there is a superfluous frame end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage[ uniWZ, tams, blockBG, engl, conference]{tamsBeamer}
+%-- options	------------------------------------------------------
+%	tams	|	- TAMS		publication
+%	engl		- english strings	[german]
+%	uniWZ	|	- uni		watermark
+%	tamsWZ	|	- tams+uni	watermark
+%	cinacsWZ	- cinacs+uni	watermark
+%	secToc	|	- toc repetition at each section
+%	secTocA		- -"-, all sections: show
+%			  replacement for toc in short docs
+%	subsecToc	- toc repetition at each subsection
+%	secNum  	- (sub)-section numbering
+%	fullstep	- always step through items
+%	noFoot		- footline	off
+%	noPage		- page numbers	off
+%	noAuth		- author	off
+%	conference	- footline with \foottitle{...}
+%	blockBG	|	- block, example etc. background
+%	blockRound	- -"-, rounded+shadow
+
+\makeatother
+
+\begin{document}
+
+
+\include{subs/title/title_presentation}
+
+
+
+
+\lyxframeend{}\lyxframe{Outline}
+
+\tableofcontents{}
+
+
+\lyxframeend{}
+
+
+
+\include{pres1}
+
+
+
+\include{ROS_Part}
+
+
+
+\include{pres2}
+
+
+
+\appendix
+\include{subs/appendix_presentation}
+\end{document}
