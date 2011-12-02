@@ -125,8 +125,7 @@ Plan for first Year of WP5
 
 \begin_layout Author
 S.
- Rockel, D.
- Klimentjew, J.
+ Rockel, J.
  Zhang
 \series bold
 
@@ -135,8 +134,7 @@ status open
 
 \begin_layout Plain Layout
 S.
- Rockel, D.
- Klimentjew, J.
+ Rockel,  J.
  Zhang
 \end_layout
 
@@ -149,7 +147,7 @@ S.
 
 \series default
 \size small
-{rockel, klimentjew, zhang}@informatik.uni-hamburg.de
+{rockel, zhang}@informatik.uni-hamburg.de
 \begin_inset VSpace -1em
 \end_inset
 
@@ -158,22 +156,19 @@ S.
 
 \begin_layout Date
 \begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/RACE-Logo-Slanting-PROPOSAL-grayscale.pdf
+	filename ../../images/RACE_Logo_framed.pdf
 	lyxscale 20
 	width 13page%
 
 \end_inset
 
 
-
 \begin_inset Newline newline
 \end_inset
 
 
-\lang english
-
 \begin_inset ERT
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
