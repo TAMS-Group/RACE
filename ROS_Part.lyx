@@ -115,7 +115,7 @@ ROS
 \end_layout
 
 \begin_layout Itemize
-Meta Operating System for robotics
+Meta operating system for robotics
 \end_layout
 
 \begin_layout Itemize
@@ -123,11 +123,11 @@ Obtain, build, write and run code across multiple computers and robots
 \end_layout
 
 \begin_layout Itemize
-Open Source
+Open source
 \end_layout
 
 \begin_layout Itemize
-BSD Licensed (very liberal
+BSD licensed (very liberal
 \begin_inset Foot
 status open
 
@@ -235,6 +235,20 @@ What does ROS cover?
 \end_layout
 
 \begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
 ROS
 \end_layout
 
@@ -266,6 +280,40 @@ Client libraries
 Message passing
 \end_layout
 
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename images/electric_200w_ROS.png
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout EndFrame
 
 \end_layout
@@ -292,7 +340,7 @@ tracks topics and services
 \end_layout
 
 \begin_layout Itemize
-enables localization of nodes (nodes talk peer-to-peer)
+enables localization of nodes (they talk peer-to-peer)
 \end_layout
 
 \begin_layout Itemize
@@ -676,7 +724,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-ROS based Navigation
+ROS-based Navigation
 \end_layout
 
 \begin_layout Standard
@@ -755,6 +803,10 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+universe - robot centric, main - general
 \end_layout
 
 \begin_layout Standard

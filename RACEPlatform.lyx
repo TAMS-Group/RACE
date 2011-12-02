@@ -50,10 +50,10 @@
 \paperfontsize default
 \spacing single
 \use_hyperref true
-\pdf_title "Introduction to the Git Version Control System"
-\pdf_author "Sebastian Rockel"
-\pdf_subject "Oberseminar TAMS, Department of Informatics, University Hamburg"
-\pdf_keywords "Git, Version Control System"
+\pdf_title "RACE: Platforms and State of Simulation"
+\pdf_author "Sebastian Rockel, Denis Klimentjew"
+\pdf_subject "RACE Kick-off Meeting, Dezember 2011"
+\pdf_keywords "Robot, PR2, ROS, Restaurant"
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
