@@ -165,13 +165,13 @@ PR2
 
 \begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 
 \backslash
-include{pres1}
+input{subs/pres1}
 \end_layout
 
 \end_inset
@@ -195,7 +195,7 @@ ROS
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "ROS_Part.lyx"
+filename "subs/ROS_Part.lyx"
 
 \end_inset
 
@@ -217,13 +217,13 @@ Further Sensors
 
 \begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
 
 \backslash
-include{pres2}
+input{subs/pres2}
 \end_layout
 
 \end_inset
