@@ -4,7 +4,7 @@
 \begin_header
 \textclass beamer
 \begin_preamble
-\usepackage[ uniWZ, tams, blockBG, engl, conference]{tamsBeamer}
+\usepackage[ uniWZ, tams, blockBG, blockRound, engl, conference]{tamsBeamer}
 %-- options	------------------------------------------------------
 %	tams	|	- TAMS		publication
 %	engl		- english strings	[german]
@@ -23,6 +23,21 @@
 %	conference	- footline with \foottitle{...}
 %	blockBG	|	- block, example etc. background
 %	blockRound	- -"-, rounded+shadow
+%\AtBeginSection[] { 
+%  \begin{frame}
+%    \frametitle{Outline} 
+%    \tableofcontents[currentsection] 
+%  \end{frame} 
+%  \addtocounter{framenumber}{-1} 
+%} 
+
+\AtBeginSubsection[] { 
+  \begin{frame}
+   \frametitle{Outline} 
+    \tableofcontents[currentsubsection] 
+    \addtocounter{framenumber}{-1} 
+  \end{frame} 
+} 
 \end_preamble
 \options t
 \use_default_options false
@@ -155,7 +170,30 @@ LatexCommand tableofcontents
 status open
 
 \begin_layout Plain Layout
-GraspConstraints
+Software Environment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "subs/SWEnv.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Grasping Constraints
 \end_layout
 
 \end_inset
@@ -178,8 +216,18 @@ filename "subs/GraspConstraints.lyx"
 status open
 
 \begin_layout Plain Layout
-Appendix..
+Issues
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "subs/Issues.lyx"
 
 \end_inset
 

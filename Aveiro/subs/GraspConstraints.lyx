@@ -101,6 +101,10 @@
 Grasping Constraints
 \end_layout
 
+\begin_layout Subsection
+Reasons
+\end_layout
+
 \begin_layout BeginFrame
 \begin_inset ERT
 status collapsed
@@ -137,6 +141,10 @@ physical Manipulator dimensions and moving accuracy (fixed within Project)
 
 \end_layout
 
+\begin_layout Subsection
+Difficult Objects
+\end_layout
+
 \begin_layout BeginFrame
 Difficult Objects
 \end_layout
@@ -160,7 +168,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RACE/RACE/images/besteck.jpg
+	filename ../../images/besteck.jpg
 	lyxscale 20
 	height 20theight%
 
@@ -181,7 +189,7 @@ Longrightarrow$
 
 
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RACE/RACE/images/griffverdickung.jpg
+	filename ../../images/griffverdickung.jpg
 	lyxscale 20
 	height 20theight%
 
@@ -189,7 +197,7 @@ Longrightarrow$
 
 
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RACE/RACE/images/dickerGriff.jpg
+	filename ../../images/dickerGriff.jpg
 	lyxscale 20
 	height 20theight%
 
@@ -220,7 +228,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RACE/RACE/images/glaeser_01.jpg
+	filename ../../images/glaeser_01.jpg
 	lyxscale 20
 	height 20theight%
 
@@ -263,7 +271,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RACE/RACE/images/teller.jpg
+	filename ../../images/teller.jpg
 	lyxscale 20
 	height 20theight%
 
@@ -284,7 +292,7 @@ Longrightarrow$
 
 
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RACE/RACE/images/ikea--tiefer-teller__72570_PE188485_S4.jpg
+	filename ../../images/ikea--tiefer-teller__72570_PE188485_S4.jpg
 	lyxscale 20
 	height 20theight%
 
@@ -330,7 +338,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RACE/RACE/images/schuessel_wo_henkel.jpg
+	filename ../../images/schuessel_wo_henkel.jpg
 	lyxscale 20
 	height 20theight%
 
@@ -351,7 +359,7 @@ Longrightarrow$
 
 
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RACE/RACE/images/evasolo-schuessel-05.jpg
+	filename ../../images/evasolo-schuessel-05.jpg
 	lyxscale 20
 	height 20theight%
 
@@ -359,7 +367,7 @@ Longrightarrow$
 
 
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RACE/RACE/images/schuessel_henkel.jpg
+	filename ../../images/schuessel_henkel.jpg
 	lyxscale 20
 	height 20theight%
 
@@ -380,6 +388,64 @@ Longrightarrow$
 \end_deeper
 \begin_layout Itemize
 dinner tray (mobile or to carry?)
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Examples
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/Pisa – 50.JPG
+	lyxscale 10
+	height 45theight%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/Pisa – 49.JPG
+	lyxscale 10
+	height 45theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+DomoCasa Lab, Peccioli, Italy, Feb 2012
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
