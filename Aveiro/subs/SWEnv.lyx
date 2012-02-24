@@ -111,7 +111,7 @@ target "http://race.informatik.uni-hamburg.de/wordpress/wiki/index.php/Main_Page
 
 \end_deeper
 \begin_layout Itemize
-Ubuntu (32bit), 11.10 (Oneiric)
+Ubuntu (32bit), 10.10 (Maverick) or 11.10 (Oneiric)
 \begin_inset Foot
 status open
 
@@ -150,6 +150,10 @@ http://www.ros.org/wiki/Robots/PR2/electric
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+further questions: please ask
 \end_layout
 
 \begin_layout EndFrame
@@ -205,6 +209,10 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+TODO Gründe dafür aus Email!
 \end_layout
 
 \begin_layout EndFrame
