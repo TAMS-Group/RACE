@@ -248,6 +248,66 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
+Difficult Objects (cont'd)
+\end_layout
+
+\begin_layout Itemize
+dinner tray (mobile or to carry?)
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "http://youtu.be/-VsHH4HaA9c"
+target "http://youtu.be/-VsHH4HaA9c"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../../images/PR2_CartPushing.png
+	lyxscale 50
+	height 50theight%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/Pr2_cartpushing.png
+	lyxscale 50
+	height 50theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
 Impossible Objects (currently)
 \end_layout
 
@@ -386,10 +446,6 @@ Longrightarrow$
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-dinner tray (mobile or to carry?)
-\end_layout
-
 \begin_layout EndFrame
 
 \end_layout
