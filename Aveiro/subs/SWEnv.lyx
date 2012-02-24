@@ -165,27 +165,10 @@ Simulator 3D restaurant
 \end_layout
 
 \begin_layout Standard
-
-\lang ngerman
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-onslide<1-2>{
-\end_layout
-
-\end_inset
-
-
-\lang english
-
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset space \hfill{}
@@ -195,7 +178,7 @@ status collapsed
 \begin_inset Graphics
 	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/Tams_demo_map.png
 	lyxscale 20
-	width 20text%
+	width 30text%
 	BoundingBox 0bp -100bp 296bp 207bp
 
 \end_inset
@@ -206,9 +189,9 @@ status collapsed
 
 
 \begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/PR2_tams_rest_ov.png
+	filename ../../images/gazebo_map_ov.png
 	lyxscale 20
-	width 40text%
+	width 60text%
 
 \end_inset
 
@@ -217,60 +200,6 @@ status collapsed
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang ngerman
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}
-\backslash
-invisible<-1>{
-\end_layout
-
-\end_inset
-
-
-\lang english
-
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/PR2_table.png
-	lyxscale 20
-	width 30text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}
 \end_layout
 
 \end_inset
@@ -287,7 +216,29 @@ Kinect Model
 \end_layout
 
 \begin_layout Standard
-Picture from restaurant kinect data
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/pr2_kinect 2.png
+	lyxscale 30
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
