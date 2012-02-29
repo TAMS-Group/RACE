@@ -76,20 +76,37 @@ Issues
 which data to provide? (abstraction, sensors, kind)
 \end_layout
 
+\begin_layout Pause
+
+\end_layout
+
 \begin_layout Itemize
 how and to which module (partner) shall it be delivered? (architecture)
+\end_layout
+
+\begin_layout Pause
+
 \end_layout
 
 \begin_layout Itemize
 how to make partner communication more efficient (via mail, wiki etc.)?
 \end_layout
 
+\begin_layout Pause
+
+\end_layout
+
 \begin_layout Itemize
 how to organize/create ROS Stack for simulator (3D restaurant)?
 \end_layout
 
+\begin_layout Pause
+
+\end_layout
+
 \begin_layout Itemize
-organization of the restaurant environment? (objects, rooms etc.)
+organization of the restaurant environment? (objects, mutliple rooms?, multiple
+ guests? etc.)
 \begin_inset Note Note
 status open
 
@@ -100,6 +117,14 @@ how and what should be placed
 \end_inset
 
 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Human Robot interaction (touch interface -> touchpad)
 \end_layout
 
 \begin_layout EndFrame

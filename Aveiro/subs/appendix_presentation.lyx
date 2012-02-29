@@ -90,6 +90,103 @@ Thank You!
 Any questions?
 \end_layout
 
+\begin_layout Itemize
+ROS Workshop?
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection*
+WP5 Plan
+\end_layout
+
+\begin_layout BeginFrame
+WP5 Plan
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../../images/WP5_Plan_b.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../../images/WP5_Plan_a.png
+	width 100text%
+	BoundingBox 0bp 0bp 633bp 26bp
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../../images/WP5_Milestones.png
+	lyxscale 80
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+D5.1 Robot control software architecture and interfaces.
+ (M9)
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+D5.2.1 Basic simulator with simple static environment that enables Year-1
+ demonstration.
+ (M9)
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+D5.4.1 Year-1 demonstrator.
+ (M11)
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+D5.5.1 Suite of scenarios, benchmark and evaluation metrics.
+ (M9)
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+D5.5.2 Experiment data Year-1 demonstrator.
+ (M12)
+\end_layout
+
 \begin_layout EndFrame
 
 \end_layout
