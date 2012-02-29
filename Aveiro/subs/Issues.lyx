@@ -105,7 +105,7 @@ how to organize/create ROS Stack for simulator (3D restaurant)?
 \end_layout
 
 \begin_layout Itemize
-organization of the restaurant environment? (objects, mutliple rooms?, multiple
+organization of the restaurant environment? (objects, multiple rooms?, multiple
  guests? etc.)
 \begin_inset Note Note
 status open
@@ -124,7 +124,20 @@ how and what should be placed
 \end_layout
 
 \begin_layout Itemize
-Human Robot interaction (touch interface -> touchpad)
+human robot interaction (touch interface 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+rightarrow$
+\end_layout
+
+\end_inset
+
+ touchpad)
 \end_layout
 
 \begin_layout EndFrame

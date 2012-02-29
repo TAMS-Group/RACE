@@ -90,8 +90,17 @@ Thank You!
 Any questions?
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 ROS Workshop?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
@@ -139,7 +148,8 @@ status open
 \begin_inset Graphics
 	filename ../../images/WP5_Milestones.png
 	lyxscale 80
-	width 60text%
+	width 70text%
+	BoundingBox 0bp 50bp 718bp 263bp
 
 \end_inset
 

@@ -240,7 +240,20 @@ fragile objects, e.g.
 \begin_deeper
 \begin_layout Itemize
 grasp force leads partially to breaking the glass (more sensitive grasp
- checking in advance?) -> plastic glasses
+ checking in advance?) 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+$
+\backslash
+rightarrow$
+\end_layout
+
+\end_inset
+
+ plastic glasses
 \begin_inset ERT
 status collapsed
 

@@ -205,7 +205,7 @@ status collapsed
 
 
 \begin_inset Box Frameless
-position "t"
+position "b"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
@@ -215,7 +215,7 @@ width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align right
@@ -223,8 +223,28 @@ status collapsed
 	filename ../../images/Tams_demo_map.png
 	lyxscale 20
 	scale 20
-	BoundingBox 0bp -200bp 296bp 207bp
+	BoundingBox 0bp 0bp 296bp 207bp
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+\begin_inset Graphics
+	filename ../../images/tams_compl_red_map.png
+	lyxscale 20
+	width 100text%
+	BoundingBox 0bp 0bp 1259bp 312bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace vfill
 \end_inset
 
 
