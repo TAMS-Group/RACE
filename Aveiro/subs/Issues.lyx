@@ -73,23 +73,23 @@ Issues
 \end_layout
 
 \begin_layout Itemize
-Which data to provide?
+which data to provide? (abstraction, sensors, kind)
 \end_layout
 
 \begin_layout Itemize
-How and to which module shall it be delivered?
+how and to which module (partner) shall it be delivered? (architecture)
 \end_layout
 
 \begin_layout Itemize
-How to make partner communication more efficient (mail, wiki etc.)?
+how to make partner communication more efficient (via mail, wiki etc.)?
 \end_layout
 
 \begin_layout Itemize
-ROS Stack (3D Restaurant)?
+how to organize/create ROS Stack for simulator (3D restaurant)?
 \end_layout
 
 \begin_layout Itemize
-Organization of the restaurant environment?
+organization of the restaurant environment? (objects, rooms etc.)
 \begin_inset Note Note
 status open
 

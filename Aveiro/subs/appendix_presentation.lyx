@@ -95,6 +95,55 @@ Any questions?
 \end_layout
 
 \begin_layout Subsection*
+ROS Workshop
+\end_layout
+
+\begin_layout BeginFrame
+ROS Workshop Topics
+\end_layout
+
+\begin_layout Itemize
+understand stack and learn how to modify (e.g.
+ tabletop)
+\end_layout
+
+\begin_layout Itemize
+debugging + error detection + tracing
+\end_layout
+
+\begin_layout Itemize
+installation of other stacks on PR2
+\end_layout
+
+\begin_layout Itemize
+how to create own stack?
+\end_layout
+
+\begin_layout Itemize
+how are singularities handled?
+\end_layout
+
+\begin_layout Itemize
+combination (chaining of stacks?
+\end_layout
+
+\begin_layout Itemize
+compiling/tool chain, how to use/how does it work?
+\end_layout
+
+\begin_layout Itemize
+optimization of rosbag
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection*
 Further Reading
 \end_layout
 

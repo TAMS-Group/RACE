@@ -120,16 +120,16 @@ Grasping Constraints
 \end_layout
 
 \begin_layout FrameSubtitle
-PR2 (currently)
+PR2
 \end_layout
 
 \begin_layout Itemize
-Grasping is constrained by
+grasping is constrained by
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Sensor resolution and noise (better sensors, Kinect?, basically fixed)
+sensor resolution and noise (better sensors, Kinect?, basically fixed)
 \end_layout
 
 \begin_layout Itemize
@@ -150,6 +150,16 @@ Difficult Objects
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<1-2>
+\end_layout
+
+\end_inset
+
 thin objects, e.g.
  spoon, knife, fork
 \end_layout
@@ -164,7 +174,7 @@ to be at least 1.7 cm wide (horizontal diameter)
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -213,6 +223,16 @@ Longrightarrow$
 
 \end_deeper
 \begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<2>
+\end_layout
+
+\end_inset
+
 fragile objects, e.g.
  thin glass
 \end_layout
@@ -220,11 +240,46 @@ fragile objects, e.g.
 \begin_deeper
 \begin_layout Itemize
 grasp force leads partially to breaking the glass (more sensitive grasp
- checking in advance?)
+ checking in advance?) -> plastic glasses
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+invisible<
+\end_layout
+
+\end_inset
+
+1
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+>
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -235,6 +290,17 @@ status open
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \end_inset
@@ -252,9 +318,33 @@ Difficult Objects (cont'd)
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<1-2>
+\end_layout
+
+\end_inset
+
 dinner tray (mobile or to carry?)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<2>
+\end_layout
+
+\end_inset
+
+cart pushing stack
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset CommandInset href
@@ -270,12 +360,62 @@ target "http://youtu.be/-VsHH4HaA9c"
 \end_inset
 
 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+invisible
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<
+\end_layout
+
+\end_inset
+
+1
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+>
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
 \begin_inset Graphics
 	filename ../../images/PR2_CartPushing.png
 	lyxscale 50
@@ -296,6 +436,21 @@ status open
 \end_inset
 
 
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \end_inset
@@ -318,7 +473,7 @@ flat objects, e.g.
 
 \begin_deeper
 \begin_layout Itemize
-Problem: not detectabe (colored plates?), not graspable due to no grasp
+problem: not detectable (colored plates?), not graspable due to no grasp
  point (higher plates, support block underneath?)
 \end_layout
 
@@ -327,13 +482,13 @@ Problem: not detectabe (colored plates?), not graspable due to no grasp
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ../../images/teller.jpg
 	lyxscale 20
-	height 20theight%
+	height 30theight%
 
 \end_inset
 
@@ -354,7 +509,7 @@ Longrightarrow$
 \begin_inset Graphics
 	filename ../../images/ikea--tiefer-teller__72570_PE188485_S4.jpg
 	lyxscale 20
-	height 20theight%
+	height 30theight%
 
 \end_inset
 
@@ -385,12 +540,16 @@ wide objects (wider than gripper max), e.g.
 
 \begin_deeper
 \begin_layout Itemize
-robot must not grasp from above due to hygiene reasons (detect and gasp
+robot must not grasp from above due to hygiene reasons (detect and grasp
  bail)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -400,7 +559,7 @@ status open
 \begin_inset Graphics
 	filename ../../images/schuessel_wo_henkel.jpg
 	lyxscale 20
-	height 20theight%
+	height 30theight%
 
 \end_inset
 
@@ -421,7 +580,7 @@ Longrightarrow$
 \begin_inset Graphics
 	filename ../../images/evasolo-schuessel-05.jpg
 	lyxscale 20
-	height 20theight%
+	height 30theight%
 
 \end_inset
 
@@ -429,7 +588,7 @@ Longrightarrow$
 \begin_inset Graphics
 	filename ../../images/schuessel_henkel.jpg
 	lyxscale 20
-	height 20theight%
+	height 30theight%
 
 \end_inset
 
@@ -445,7 +604,6 @@ Longrightarrow$
 
 \end_layout
 
-\end_deeper
 \begin_layout EndFrame
 
 \end_layout
@@ -458,7 +616,7 @@ Examples
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
