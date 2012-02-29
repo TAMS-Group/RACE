@@ -122,9 +122,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset VSpace -2em
+\end_inset
+
+
 \begin_inset Graphics
 	filename ../../images/WP5_Plan_b.png
 	width 100text%
+	BoundingBox 0bp 0bp 635bp 13bp
 
 \end_inset
 
@@ -136,7 +141,7 @@ status open
 \begin_inset Graphics
 	filename ../../images/WP5_Plan_a.png
 	width 100text%
-	BoundingBox 0bp 0bp 633bp 26bp
+	BoundingBox 0bp 0bp 633bp 76bp
 
 \end_inset
 
