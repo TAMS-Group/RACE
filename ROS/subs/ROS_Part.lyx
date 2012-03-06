@@ -147,7 +147,7 @@ target "http://en.wikipedia.org/wiki/BSD_licenses"
 \end_layout
 
 \begin_layout Itemize
-Willow Garage
+Willow Garage, Inc.
 \end_layout
 
 \begin_layout Itemize
@@ -207,7 +207,7 @@ Supported Platforms
 
 \begin_deeper
 \begin_layout Itemize
-Linux, Mac OS, partial support for Windows
+Linux (Ubuntu!), Mac OS, partial support for Windows
 \end_layout
 
 \end_deeper
@@ -225,6 +225,74 @@ C/C++, Python, Octave, Lisp, Java
 \end_layout
 
 \end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Hardware suggested
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+many cores, nVidia video card (for visualization and simulation)
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Prerequisites
+\end_layout
+
+\begin_layout Itemize
+Ubuntu (32bit), 10.10 (Maverick) or 11.10 (Oneiric)
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://www.ubuntu.com/download
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ROS (Electric)
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://www.ros.org/wiki/electric/Installation/Ubuntu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+PR2 Electric PR2 Simulation Package
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://www.ros.org/wiki/Robots/PR2/electric
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+further questions: please ask
+\end_layout
+
 \begin_layout EndFrame
 
 \end_layout
@@ -719,6 +787,37 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
+Visualization and Simulation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../../images/pr2_kinect 2.png
+	lyxscale 30
+	width 100text%
+	BoundingBox 0bp 0bp 1280bp 750bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
 ROS-based Navigation
 \end_layout
 
@@ -864,7 +963,7 @@ already integrated
 \end_layout
 
 \begin_layout Itemize
-usecase specific
+use-case specific
 \end_layout
 
 \end_deeper
