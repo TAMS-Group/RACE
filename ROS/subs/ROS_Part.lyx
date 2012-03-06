@@ -386,11 +386,15 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-ROS Nodes
+ROS Core
 \end_layout
 
 \begin_layout Itemize
-Master (rosmaster)
+ROS Master (
+\emph on
+rosmaster
+\emph default
+)
 \end_layout
 
 \begin_deeper
@@ -407,14 +411,101 @@ enables localization of nodes (they talk peer-to-peer)
 \end_layout
 
 \begin_layout Itemize
-XML-RPC-based API
+centralized XML-RPC-server
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Generally: they are uniquely named
+Parameter Server
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+stores persistent (run-time) configuration parameters
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+rosout
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+network-based 
+\series bold
+stdout
+\series default
+ for human-readable messages
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+ROS Core
+\end_layout
+
+\begin_layout Itemize
+nodes
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+A node is a source and sink for data sent over the ROS network
+\end_layout
+
+\end_deeper
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Generally: nodes shall be uniquely named!
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+topics
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+asynchronous many-to-many communication streams
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+services
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+synchronous one-to-many network-based functions
+\end_layout
+
+\end_deeper
 \begin_layout EndFrame
 
 \end_layout
@@ -481,6 +572,10 @@ status open
 ROS Communication (cont.)
 \end_layout
 
+\begin_layout FrameSubtitle
+rxgraph: communication network visualization
+\end_layout
+
 \begin_layout Standard
 \noindent
 \align center
@@ -496,7 +591,7 @@ status open
 	filename ../../images/ros_rxgraph.pdf
 	lyxscale 20
 	width 100text%
-	BoundingBox 40bp 0bp 800bp 530bp
+	BoundingBox 40bp -40bp 800bp 490bp
 	clip
 
 \end_inset
@@ -755,8 +850,8 @@ status open
 
 
 \begin_inset Graphics
-	filename ../../images/2DMapping.png
-	lyxscale 20
+	filename ../../images/PR2_CartPushing.png
+	lyxscale 30
 	height 20theight%
 
 \end_inset
