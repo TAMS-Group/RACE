@@ -101,7 +101,7 @@ status open
 \begin_inset Graphics
 	filename ../../images/WP5_Plan_b.png
 	width 100text%
-	BoundingBox 0bp 0bp 635bp 13bp
+	BoundingBox -45bp 0bp 635bp 13bp
 
 \end_inset
 
@@ -112,8 +112,9 @@ status open
 
 \begin_inset Graphics
 	filename ../../images/WP5_Plan_a.png
+	lyxscale 53
 	width 100text%
-	BoundingBox 0bp 0bp 633bp 76bp
+	BoundingBox 0bp 0bp 1150bp 131bp
 
 \end_inset
 
@@ -141,30 +142,35 @@ status open
 \begin_layout Itemize
 
 \size footnotesize
-D5.1 Robot control software architecture and interfaces.
- (M9)
+T5.1 Robot control software architecture and interfaces.
+ -> MS1 (Month 10)
 \end_layout
 
 \begin_layout Itemize
 
 \size footnotesize
-D5.2.1 Basic simulator with simple static environment that enables Year-1
+T5.2.1 Basic simulator with simple static environment that enables Year-1
  demonstration.
- (M9)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+D5.1 Evaluation Infrastructure (M10)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\size footnotesize
+T5.4.1 Year-1 demonstrator.
+ -> D5.2, MS2 (M10)
 \end_layout
 
 \begin_layout Itemize
 
 \size footnotesize
-D5.4.1 Year-1 demonstrator.
- (M11)
-\end_layout
-
-\begin_layout Itemize
-
-\size footnotesize
-D5.5.1 Suite of scenarios, benchmark and evaluation metrics.
- (M9)
+T5.5.1 Suite of scenarios, benchmark and evaluation metrics.
+ -> (M9)
 \end_layout
 
 \begin_layout Itemize

@@ -1,0 +1,210 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Demonstrator
+\end_layout
+
+\begin_layout Subsection
+Demonstrator
+\end_layout
+
+\begin_layout BeginFrame
+Demonstrator Year-1 (D5.1)
+\end_layout
+
+\begin_layout FrameSubtitle
+Month 10 (September 2012)
+\end_layout
+
+\begin_layout Itemize
+Demo1.1 (Serve-coffee):
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+take coffee mug from counter
+\end_layout
+
+\begin_layout Enumerate
+place it on tray
+\end_layout
+
+\begin_layout Enumerate
+approach table
+\end_layout
+
+\begin_layout Enumerate
+look for guest
+\end_layout
+
+\begin_layout Enumerate
+place mug in front of guest
+\end_layout
+
+\begin_layout Enumerate
+return to counter
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Demonstrator Year-1 (D5.1) cont'd
+\end_layout
+
+\begin_layout FrameSubtitle
+Month 10 (September 2012)
+\end_layout
+
+\begin_layout Itemize
+Demo1.2 (Clear-coffe-mugs-from-table):
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+approach table
+\end_layout
+
+\begin_layout Enumerate
+look for coffee mug(s)
+\end_layout
+
+\begin_layout Enumerate
+put it (them) on tray
+\end_layout
+
+\begin_layout Enumerate
+return to counter
+\end_layout
+
+\begin_layout Enumerate
+take mug(s) from tray
+\end_layout
+
+\begin_layout Enumerate
+place it (them) on the counter
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Demonstrator Year-1 (D5.1) cont'd
+\end_layout
+
+\begin_layout FrameSubtitle
+Month 10 (September 2012)
+\end_layout
+
+\begin_layout Itemize
+Phase 1: experience-gathering
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+give the robot detailed instructions
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Phase 2: experience-exploitation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+give the robot less detailed instructions
+\end_layout
+
+\begin_layout Itemize
+slight variations of spatial conditions
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+people moving around in the robot's path
+\end_layout
+
+\begin_layout Itemize
+chairs and tables might be displaced
+\end_layout
+
+\begin_layout Itemize
+tabletop might be occupied by unexpected objects
+\end_layout
+
+\begin_layout Itemize
+...
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document
