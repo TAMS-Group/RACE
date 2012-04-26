@@ -73,6 +73,14 @@ Issues
 \end_layout
 
 \begin_layout Itemize
+Define evaluation metrics for demonstrator
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Itemize
 which data to provide? (abstraction, sensors, kind)
 \end_layout
 
@@ -138,6 +146,11 @@ rightarrow$
 \end_inset
 
  touchpad)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame

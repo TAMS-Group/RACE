@@ -68,28 +68,128 @@ Software Environment
 Simulator 3D Restaurant
 \end_layout
 
-\begin_layout BeginFrame
-Simulation Stack
+\begin_layout Standard
+
+\lang ngerman
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{frame}[fragile]
 \end_layout
 
-\begin_layout FrameSubtitle
-Updates
+\begin_layout Plain Layout
+
+
+\backslash
+frametitle{Simulation Updates}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Launch file to start
+launch the simulation with the PR2
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+$ roslaunch race_gazebo_worlds pr2_tams_rest_3d.launch
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
-launch file to start navigation and rviz configuration
+launch the navigation stack and rviz with navigation configuration
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+$ roslaunch race_gazebo_worlds pr2_nav_nodes_rviz.launch
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 -> 2 tables (as in the scenario presented)
 \end_layout
 
 \begin_layout Itemize
 cup and glass to grasp
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{frame}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Simulation Updates cont'd
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/WP5_Plan_a.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame

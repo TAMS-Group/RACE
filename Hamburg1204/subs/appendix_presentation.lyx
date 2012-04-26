@@ -119,14 +119,14 @@ status open
 \end_inset
 
 
-\begin_inset Newline newline
+\begin_inset VSpace vfill
 \end_inset
 
 
 \begin_inset Graphics
 	filename ../../images/WP5_Milestones.png
 	lyxscale 80
-	width 70text%
+	width 80text%
 	BoundingBox 0bp 50bp 718bp 263bp
 
 \end_inset
@@ -139,32 +139,111 @@ status open
 
 \end_layout
 
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+WP5 Plan cont'd
+\end_layout
+
 \begin_layout Itemize
 
 \size footnotesize
 T5.1 Robot control software architecture and interfaces.
- -> MS1 (Month 10)
+ (UHAM, ORU, UOS, UA)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+$
+\backslash
+rightarrow$
+\end_layout
+
+\end_inset
+
+ 
+\emph on
+MS1 (Month 10)
 \end_layout
 
 \begin_layout Itemize
 
 \size footnotesize
-T5.2.1 Basic simulator with simple static environment that enables Year-1
- demonstration.
+T5.2 Basic simulator with simple static environment that enables Year-1 demonstra
+tion.
+ (UHAM, ORU, UOS, UA)
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-D5.1 Evaluation Infrastructure (M10)
+D5.1 Evaluation Infrastructure (M10, September 2012)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+includes a suite of concrete scenarios
+\end_layout
+
+\begin_layout Itemize
+benchmark and evaluation metrics
+\end_layout
+
+\begin_layout Itemize
+simulation infrastructure
+\end_layout
+
+\begin_layout Itemize
+collection of raw sensing data (from scenarios)
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+WP5 Plan cont'd
+\end_layout
+
+\begin_layout Itemize
+T5.3 Sensor data acquisition (UHAM, ORU, UOS, UA)
+\end_layout
+
+\begin_layout Itemize
+T5.4 Demonstrators (UHAM, ORU, UOS, UA, UL, HITeC)
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 
 \size footnotesize
-T5.4.1 Year-1 demonstrator.
- -> D5.2, MS2 (M10)
+D5.2, MS2 (Month 12, November 2012)
 \end_layout
+
+\begin_deeper
+\begin_layout Itemize
+execution
+\end_layout
+
+\begin_layout Itemize
+evaluation of the results (according to defined metrics)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+T5.5 Benchmarking and evaluation (UHAM, ORU, UOS, UA, UL)
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset Note Note
+status open
 
 \begin_layout Itemize
 
@@ -178,6 +257,11 @@ T5.5.1 Suite of scenarios, benchmark and evaluation metrics.
 \size footnotesize
 D5.5.2 Experiment data Year-1 demonstrator.
  (M12)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
