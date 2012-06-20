@@ -174,7 +174,7 @@ to be at least 1.7 cm wide (horizontal diameter)
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -292,7 +292,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -442,7 +442,7 @@ status collapsed
 
 
 \begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/Pr2_cartpushing.png
+	filename ../../images/Pr2_cartpushing.png
 	lyxscale 50
 	height 50theight%
 
@@ -495,7 +495,7 @@ problem: not detectable (colored plates?), not graspable due to no grasp
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -562,11 +562,7 @@ robot must not grasp from above due to hygiene reasons (detect and grasp
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -629,15 +625,11 @@ Examples
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/Pisa – 50.JPG
+	filename ../../images/Pisa – 50.JPG
 	lyxscale 10
 	height 45theight%
 
@@ -649,7 +641,7 @@ status collapsed
 
 
 \begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RACE/RACE/images/Pisa – 49.JPG
+	filename ../../images/Pisa – 49.JPG
 	lyxscale 10
 	height 45theight%
 
