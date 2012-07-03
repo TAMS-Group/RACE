@@ -8,7 +8,6 @@
 \end_preamble
 \options t
 \use_default_options false
-\master /Users/sebastian/robotcolla/doc/PresentationOberseminar.lyx
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -191,14 +190,6 @@ Technical Aspects of Multimodal Systems
 
 
 \begin_inset VSpace 1em
-\end_inset
-
-
-\begin_inset Graphics
-	filename /Users/sebastian/Library/texmf/tex/latex/tams/logoTAMS.png
-	lyxscale 20
-	height 10theight%
-
 \end_inset
 
 
